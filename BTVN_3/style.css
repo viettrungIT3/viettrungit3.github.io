@@ -169,6 +169,13 @@
 .SP-Sale .image-aKhanh {
     flex-basis: 50%;
     /* height: 600px; */
+    position: relative;
+}
+.SP-Sale .image-aKhanh button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 5px 10px;
 }
 .SP-Sale img {
     width: 100%;
@@ -181,11 +188,18 @@
 .SP-Sale .image-aNam {
     flex-basis: 50%;
     /* height: 600px; */
+    position: relative;
 }
 .SP-Sale .In4-aNam {
     flex-basis: 50%;
     /* height: 600px; */
     padding: 35px;
+}
+.SP-Sale .image-aNam button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 5px 10px;
 }
 
 .end {
