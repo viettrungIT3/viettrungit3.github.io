@@ -17,7 +17,8 @@ div.menu {
     flex-direction: row;
     justify-content: space-between;
 }
-div.menu  .left{}
+div.menu  .left{width: 35px;}
+div.menu  .left img {width: 100%;}
 div.menu  .sub-menu{}
 div.menu  .sub-menu ul {
     display: flex;
@@ -30,6 +31,9 @@ div.menu  .sub-menu ul li{
 div.menu  .sub-menu ul li a{
     text-decoration: none;
     color: black;
+}
+div.menu  .sub-menu ul li:hover a{
+    color: rgb(0, 132, 255);
 }
 div.menu  .right a{ 
     text-decoration: none;
@@ -110,8 +114,9 @@ div.menu  .right button{
 }
 
 .container .Lorem {
-    width: 30%;
+    width: 35%;
     margin: 30px auto;
+    margin-bottom: 100px;
     text-align: center;
 }
 .container .Lorem  h1{
@@ -160,6 +165,7 @@ div.menu  .right button{
 .container_3 {
     width: 80%;
     margin: auto;
+    padding: 150px 0 ;
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -170,7 +176,7 @@ div.menu  .right button{
 .container_3 .box {
     width: 250px;
     margin: 15px;
-    padding: 20px 10px;
+    padding: 25px 10px;
     text-align: center;
     border: 1px solid rgb(78, 71, 71);
     border-radius: 5px;
@@ -184,7 +190,6 @@ div.menu  .right button{
 }
 .end .left {
     margin-left: 10%;
-    padding: 25px;
     color: rgb(95, 86, 86);
 }
 .end .right {
@@ -192,8 +197,7 @@ div.menu  .right button{
 }
 
 .end .right i {
-    margin: 20px;
+    margin: 0 20px;
     color:white;
-    font-size: 32px;
-    background-color: rgb(37, 37, 233);
+    font-size: 26px;
 }
