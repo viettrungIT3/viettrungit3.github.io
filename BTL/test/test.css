@@ -1,0 +1,10 @@
+a::selection {
+    color: brown;
+    background-color: aqua;
+    transition: 1s;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
