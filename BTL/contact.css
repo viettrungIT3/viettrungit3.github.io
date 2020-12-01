@@ -50,6 +50,49 @@ img {
     line-height: 1.2;
 }
 
+.header {
+    width: 100%;
+    height: 720px;
+}
+
+.header .site-nav {
+    z-index: 2;
+    background-color: #6c757d;
+}
+.header .site-nav .top-bar{}
+.header .site-nav .top-bar{
+    padding: 20px 0;
+}
+.header .site-nav .top-bar a {
+    color: var(--white);
+}
+ 
+
+.header .background{
+    background-image: url("./image/hero_bg.jpg");
+    height: 100%;
+    background-size: inherit;
+    background-position: center;
+    position: relative;
+    z-index: -1;
+}
+.header .background::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+.header .container-header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
 .container .section-1  {
     padding: 100px 0;
 }
