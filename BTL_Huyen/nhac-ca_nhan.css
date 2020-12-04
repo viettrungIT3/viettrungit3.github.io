@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #0D021A;
+    color: black;
+}
+
+a, body, h2 {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+img {
+    width: 100%;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    font-family: segoe;
+    display: flex;
+}
+
+.container .left {
+    width: 25%;
+}
+
+.container .left .menu li {
+    list-style: none;
+    margin: 5px 0;
+    height: 30px;
+}
+
+.container .left .menu li:hover {
+    background-color: rgb(250, 237, 237);
+}
+
+.container .left .menu a {
+    text-decoration: none;
+}
+
+.container .left .menu a:hover {
+    color: #a783cf;
+    background-color: rgb(250, 237, 237);
+}
+
+.container .right {
+    margin-left: 20px;
+    width: 75%;
+}
+
+.container .title  {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+.container .title .left-title a:hover h2{
+    color: #9877FF;
+
+}
+.container .title .right-title a{
+    background-color: #2f035a;
+    border: 1px solid #421e77;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 12px;
+}
+.container .title .right-title a:hover{
+    background-color: #ffffff;
+    border: 1px solid #421e77;
+    color: #9877FF;
+}
+.container .title .right-title i{
+    color: #fff; 
+    margin-right: 5px;
+    background-color: #2f035a;
+}
+.container .title .right-title a:hover i{
+    color: #9877FF;
+    background-color: #ffffff;
+}
+
+.bai_hat {
+    height: 250px;
+    background-color: #220c38;
+    color: #9877FF;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.bai_hat i{
+    background-color: #220c38;
+    color: #9877FF;
+    font-size: 100px;
+    /* color: white; */
+    margin-top: 40px;
+    margin: 40px;
+}
+
+.bai_hat span {
+    color: #9877FF;
+    background-color: #220c38;
+}

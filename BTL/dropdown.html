@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dropdown.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="http://email.tl.fortawesome.com/c/eJxNjcsOgyAURL9GluRykdeCRWvqf_Cy2og0gunvl-6azGwmk3OijUnGpMhmERAY6xUokVFGcQL9wD4pjdN9VsMIbadLOZv7pFpyoqFkstpgQILjgmnu_RIXrTykGKRhMHJQgux2be1dB34bcO65auqY4x_T165WxnDFPH1Vctp2uSMH1Fp08TO7bf8dvyn3M74"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body >
+
+
+    <header class="Homepage">
+        <div class="logo"><a href="">Nurture</a></div>
+        <nav class="active">
+          <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li class="break-point"> <a href=""> Dropdown <i class="fa fa-angle-down"></i></a>
+              <ul class="sub-menu">
+                <li><a href="#">Element 1</a></li>
+                <li><a href="#">Element 2</a></li>
+                <li><a href="#">Element 3</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Our Staff</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="enroll">ENROLL NOW</div>
+        <div class="menu-toggle"><i class="fa fa-bars"></i></div>
+      </header>
+      <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function() {
+          $('.menu-toggle').click(function() {
+            $('nav').toggleClass('active');
+          })
+        })
+      </script>
+    <div class="container1">
+        <div class="cross-bar">
+            <div class="left-side">
+                <a href="#"><i class="fa fa-question-circle"></i> Have a questions?</a>
+                <a href="#"><i class="fa fa-phone"></i> 096166xxxx</a>
+                <a href="#"><i class="fa fa-envelope"></i> info.mydomain.com</a>
+            </div>
+            <div class="right-side">
+                <a href="#"><i class="fa fa-lock"></i> Login</a>
+                <a class="a1a1a1a1a1" href="#"><i class="fa fa-user"></i> Register</a>
+            </div>
+        </div>
+        <div class="container1-content">
+            <div class="content justify-content-center">
+                <div class="content-left">
+                    <h1>Elemments</h1>
+                    <p>Another free template by <span class="colorlib-underline"><a href="">Colorlib</a></span>. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <button>EXPLORE NOW</button>
+                </div>
+                <div class="content-right">
+                    <a><i class="fa fa-play"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container2 container">
+        <div class="row">
+            <div class="left col-lg-6">
+                <h3>Accordion</h3>
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                      <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                          <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            How to download and register?
+                          </button>
+                        </h2>
+                      </div>
+                  
+                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <div class="">
+                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                          <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            How to create your paypal account?
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p class="">
+                                A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                          <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            How to link your paypal and bank account?
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <h3>Gallery</h3>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="https://preview.colorlib.com/theme/nurture/images/gal_1.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img src="https://preview.colorlib.com/theme/nurture/images/gal_2.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img src="https://preview.colorlib.com/theme/nurture/images/gal_3.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img src="https://preview.colorlib.com/theme/nurture/images/gal_4.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img src="https://preview.colorlib.com/theme/nurture/images/gal_5.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img src="https://preview.colorlib.com/theme/nurture/images/gal_6.jpg" alt="">
+                    </div>
+                </div>
+                <h3>Video</h3>
+                <a href="https://vimeo.com/342333493" data-fancybox="" class="video-wrap">
+                  <i class="fa fa-play-circle"></i>
+                  <img src="https://preview.colorlib.com/theme/nurture/images/hero_bg.jpg" alt="Image" class="img-fluid rounded">
+                </a>
+                <div class="check_list">
+                  <h2>Check Unordered List</h2>
+                  <ul>
+                    <li>
+                      <i class="fa fa-check"></i>
+                      Far far away, behind the word
+                    </li>
+                    <li>
+                      <i class="fa fa-check"></i>
+                      Far far away, behind the word
+                    </li>
+                    <li>
+                      <i class="fa fa-check"></i>
+                      Far far away, behind the word
+                    </li>
+                    
+                  </ul>
+                </div>
+
+            </div>
+            <div class="right col-lg-6">
+              <div class="custom-block aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                <h3 class="section-title">Form</h3>
+                <form class="contact-form">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label class="" for="fname">First name</label>
+                        <input type="text" class="form-control" id="fname">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label class="" for="lname">Last name</label>
+                        <input type="text" class="form-control" id="lname">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="" for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+                  <div class="form-group">
+                    <label class="" for="password">Password</label>
+                    <input type="password" class="form-control" id="password">
+                  </div>
+                  <div class="form-group">
+                    <label class="" for="message">Message</label>
+                    <textarea name="" class="form-control" id="message" cols="30" rows="5"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <label class="" for="select">Select</label>
+    
+                    <select name="" id="select" class="custom-select">
+                      <option value="">Colorlib</option>
+                      <option value="">Offers high quality free template</option>
+                    </select>
+    
+                  </div>
+                  <div class="form-group">
+                    <label class="control control--checkbox">
+                      <span class="caption">Custom checkbox</span>
+                      <input type="checkbox" class="check" checked="checked">
+                      <div class="control__indicator"></div>
+                    </label>
+                  </div>
+                  <button type="submit" class="btn btn-outline-danger">Submit</button>
+                </form>
+              </div>
+              <div class="icon">
+                <h2>Social Icons</h2>
+                <div class="box-icon d-flex">
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-linkedin-in"></i></a>
+                  <a href=""><i class="fab fa-google"></i></a>
+                  <a href=""><i class="fab fa-google-play"></i></a>
+                </div>
+              </div>
+              
+            </div>
+        </div>
+    </div>
+
+    <div class="container9">
+        <div class="container9-content">
+            <ul class="c9-col-1">
+                <li><h3>About Nurture.</h3></li>
+                <li>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</li>
+                <li><h3>Connect</h3></li>
+                <li></li>
+            </ul>
+            <ul class="col-2">
+                <li><h3>Projects</h3></li>
+                <li class="new-color">Web Design</li>
+                <li class="new-color">HTML5</li>
+                <li class="new-color">CSS3</li>
+                <li class="new-color">jQuery</li>
+                <li class="new-color">Bootstrap</li>
+            </ul>
+            <div class="col-3">
+                <h3>Gallery</h3>
+                <div class="col-3-img">
+                    <img src="https://preview.colorlib.com/theme/nurture/images/gal_1.jpg" alt="">
+                    <img src="https://preview.colorlib.com/theme/nurture/images/gal_2.jpg" alt="">
+                    <img src="https://preview.colorlib.com/theme/nurture/images/gal_3.jpg" alt="">
+                    <img src="https://preview.colorlib.com/theme/nurture/images/gal_4.jpg" alt="">
+                    <img src="https://preview.colorlib.com/theme/nurture/images/gal_5.jpg" alt="">
+                    <img src="https://preview.colorlib.com/theme/nurture/images/gal_6.jpg" alt="">
+                </div>
+            </div>
+            <ul class="col-4">
+                <li><h3>Contact</h3></li>
+                <li>Hanoi Industry of University</li>
+                <li class="new-color">+0000000000000</li>
+                <li class="new-color">+0000000000000</li>
+                <li class="new-color"> 1900iioo@mydomain.com</li>
+                <li><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.4558164767463!2d105.7329533151872!3d21.05444938598444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31345457e292d5bf%3A0x20ac91c94d74439a!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2hp4buHcCBIw6AgTuG7mWk!5e0!3m2!1svi!2s!4v1606243401102!5m2!1svi!2s" width="100%" height="auto" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="true" tabindex="-1"></iframe></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <p style="text-align: center;color: white; background-color: #0fb78d;padding: 5vh 0; margin: 0;">Copyright ©2020 All rights reserved | This template is made with  by my team</p>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</body>
+
+</html>
