@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.box-image {
+    width: 70%;
+    height: 470px;
+    margin: auto;
+    overflow: hidden;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div.box  .image {
+    flex-basis: 33%;
+    height: 230px;
+    position: relative;
+    transition: 0.3s;
+    
+}
+
+div.box  .image div{
+    position: absolute;
+    transform: translateY(100%);
+    width: 100%;
+    height: 0;
+    backdrop-filter: blur(3px);
+    left: 0;
+    bottom: 0;
+    background-color: rgb(20, 20, 20);
+    opacity: 0;
+    transition: 0.3s;
+    
+}
+div.box  .image:hover div{
+    transform: translateY(0%);
+    height: 100%;
+    opacity: 0.5;
+}
+div.box  .image:hover span{
+    opacity: 1;
+}
+
+div.box  .image span {
+    position: absolute;
+    color: white;
+    padding: 10px;
+    border: 2px solid yellow;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.test {
+    height: 100px;
+    width: 100%;
+    background-color: deeppink;
+    
+}

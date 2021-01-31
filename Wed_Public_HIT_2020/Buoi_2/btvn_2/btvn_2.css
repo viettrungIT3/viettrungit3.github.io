@@ -1,0 +1,100 @@
+div.linkFB {
+    display: flex;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    justify-content: space-around;
+    background-color: rgb(19, 92, 248);
+    color: floralwhite;
+    padding: 10px;
+}
+
+a.link-fb {
+    text-decoration: none;
+    color: floralwhite;
+}
+
+img.anh1{
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1.text-h1 {
+    text-align: center;
+}
+
+.hr1 {
+    width: 20%;
+}
+
+p.text {
+    text-align: center;
+}
+
+img.anh2{
+    display: block;
+    width: 100%;
+    
+}
+
+hr.hr2 {
+    width: 50%;
+}
+
+h1.title {
+    text-align: center;
+    color: rgb(59, 59, 192);
+}
+
+.text-2 {
+    color: rgb(4, 4, 4);
+    width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px; 
+    border: 1px solid ; 
+    text-align: justify;
+}
+
+.anh1-2 {
+    display: flex;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.list {
+    color: darkgreen;
+    text-align: center;
+}
+
+p.text-p {
+    text-align: center;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-list {
+    display: flex;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    text-align: start;
+
+
+}
+
+.finish {
+    color: wheat;
+    background-image: linear-gradient(180deg, blue, violet);
+    border-top: 3px solid orange;
+    width: auto;
+    line-height: 80px;
+    font-size: 36px;
+    text-align: center;
+}

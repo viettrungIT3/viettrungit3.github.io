@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: segoe ui;
+}
+
+.header {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+
+.header .text {
+    font-size: 40px;
+    /* width: 100px; */
+    margin-left: 50px; 
+    padding: 20px 15px;
+    font-weight: 500;
+    color: rgb(145, 46, 238);
+}
+
+.website {
+    animation-name: flash;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.header .text span {
+    color: black;
+} 
+.header .text:hover span { 
+    color: rgb(145, 46, 238);
+}
+
+.header p {
+    line-height: 50px;
+    margin-right: 50px;
+    padding: 20px 15px;
+    font-weight: 540;
+    font-size: 22px;
+    z-index: 100;
+}
+
+.menu {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(107, 52, 158);
+    position: sticky;
+    z-index: 1000;
+    top: 0px;
+}
+
+.menu > ul.bo {
+    display: flex;
+    justify-content: center;
+}
+
+.menu > ul  li {
+    list-style: none;
+    height: 50px;
+    padding: 15px 25px;
+    position: relative;
+}
+
+.menu > ul.bo > li  a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+.menu > ul.bo > li:hover {
+    background-color: rgb(59, 1, 114);
+}
+.menu > ul.bo > li > ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: rgb(107, 52, 158);
+    display: none;
+    transition: 0.4s;
+} 
+.menu > ul.bo > li:hover > ul {
+    display: block;
+}
+.menu > ul.bo > li > ul > li {
+    position: relative;
+}
+.menu > ul.bo > li > ul  li:hover{
+    background-color: chocolate;
+} 
+.menu > ul.bo > li > ul > li > ul {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    background-color: rgb(107, 52, 158);
+    display: none;
+    transition: 0.4s;
+}
+.menu > ul.bo > li > ul > li:hover > ul {
+    display: block;
+}
+
+
+.main {
+    width: 1475px;
+    height: 720px;
+    position: relative;
+}
+
+.main  img.modern {
+    position: absolute;
+    width: 55%;
+    left: 45%;
+    top: -100px;
+    z-index: 1;
+}
+
+.main img.meo {
+    width: 30%;
+    position: absolute;
+    left: 225px;
+    top: -50px;
+}
+
+.main .container-text {
+    position: absolute;
+    left: 50px;
+    top: 200px;
+    width: 600px;
+    line-height: 1.75;
+    color: rgb(101, 44, 148);
+}
+
+.main .container-text h1 {
+    font-size: 50px;
+}
+.main .container-text h5 {
+    font-size: 20px;
+    line-height: 1.25;
+    padding-bottom: 15px;
+}
+.main .container-text a {
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 8px 10px;
+    color: aliceblue;
+}
+.main .container-text button {
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color: blueviolet;
+}
+.main .container-text button:hover {
+    background-color: aliceblue;
+}
+.main .container-text button:hover a{
+    color: black;
+}
+/* end .main */
+
+.SP-Sale {
+    width: 75%;
+    margin: auto;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.SP-Sale .image-aKhanh {
+    flex-basis: 50%;
+    /* height: 600px; */
+    position: relative;
+}
+.SP-Sale .image-aKhanh button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 5px 10px;
+}
+.SP-Sale img {
+    width: 100%;
+}
+.SP-Sale .In4-aKhanh {
+    flex-basis: 50%;
+    /* height: 600px; */
+    padding: 35px;
+}
+.SP-Sale .image-aNam {
+    flex-basis: 50%;
+    /* height: 600px; */
+    position: relative;
+}
+.SP-Sale .In4-aNam {
+    flex-basis: 50%;
+    /* height: 600px; */
+    padding: 35px;
+}
+.SP-Sale .image-aNam button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 5px 10px;
+}
+
+.end {
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 100px;
+}
