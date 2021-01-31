@@ -1,0 +1,102 @@
+table {
+    border:0px dodgerblue;
+    text-align: center;
+    width: 100%;
+    height: 35px;
+    background-color: dodgerblue;
+    color: floralwhite;
+}
+td {
+    border:0px dodgerblue;
+    color: floralwhite;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Doraemon {
+    text-align: center;
+}
+
+.hr1 {
+    width: 15%;
+}
+
+.hr2 {
+    width: 50%;
+}
+
+.Thongbao {
+    text-align: center;
+}
+
+.chaomung {
+    text-align: center;
+
+}
+.anh1 {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Doraemon2 {
+    text-align: center;
+    color: blue;
+}
+
+.Doraemon3 {
+    text-align: center;
+    font-size: xx-large;
+    color: red;
+}
+
+.text1 {
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.anh2 {
+    width: 500px;
+}
+
+.Nobita {
+    color: seagreen;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.Shizuka {
+    color: yellow;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.Chaien {
+    color: brown;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.Dekhi {
+    color: rgb(192, 87, 175);
+    text-align: center;
+    font-size: xx-large;
+}
+
+.btvn {
+    color: white;
+    text-align: center;
+    vertical-align: text-bottom;
+    background: rgb(24, 156, 30);
+    height: 80px;
+    
+}
