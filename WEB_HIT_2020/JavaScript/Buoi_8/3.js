@@ -28,7 +28,7 @@ const listUser = [
 
 const newArr = listUser.filter( function ( value, index) {
     if (value.age > 10 ) {
-        
+
     }
 })
 console.log(newArr.map( function ( value, index) {

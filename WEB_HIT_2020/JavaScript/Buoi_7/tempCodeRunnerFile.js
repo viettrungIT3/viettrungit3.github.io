@@ -1,14 +1,7 @@
-function sayHello() {
-//     console.log("Hello");
+const a = [ 2, 4, 1, 4, 6, 5]
+// for( let x in a) {
+//     console.log(x);
 // }
-// function cong( a, b) {
-//     return a+b;
+// for( let x of a) {
+//     console.log(x);
 // }
-
-// const a = function( a, b) {
-//     console.log( a + b)
-// }
-// cong(1,2); //cach goi ham
-// console.log(sayHello())
-// console.log( cong(1,2))
-// a(1,2)

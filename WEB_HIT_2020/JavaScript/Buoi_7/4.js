@@ -7,9 +7,13 @@
 //     console.log(text);
 // }
 
-// const a = [ 2, 4, 1, 4, 6, 5]
+ const a = [ 2, 4, 1, 4, 6, 5]
 // for( let x in a) {
 //     console.log(x);
+// }
+// for (let index = 0; index < a.length; index++) {
+//     console.log(a[index]);
+    
 // }
 // for( let x of a) {
 //     console.log(x);
