@@ -1,0 +1,42 @@
+ * {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.padd {
+    padding: 15px 0;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.container  .d1 {
+    font-size: 32px;
+}
+
+.container .d1 .blu {
+    color: #00BFFF;
+}
+
+.container .but {
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.container .but button {
+    padding: 8px 16px;
+    margin: 0 10px;
+    background-color: black;
+    border: black;
+    color: white;
+}
+
+.container .but button:hover {
+    background: #00BFFF;
+    border: #00BFFF;
+}
