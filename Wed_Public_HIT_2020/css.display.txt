@@ -1,3 +1,0 @@
-				display
-1. display flex: không xuống dòng.
-	fles-wrap: đủ width thì tự động xuống dòng.
