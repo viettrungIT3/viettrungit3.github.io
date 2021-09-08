@@ -1,0 +1,107 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
+1. Từ ngoài vào trong
+2. Từ trên xuống dưới
+3. Từ tổng quan đến chi tiết.
+*/
+
+/* 
+1. Vị trí
+2. Kích thước (width. height)
+3. Màu sác
+4. Kiểu dáng(kiểu chữ, hình tròn, vuông,...)
+*/
+
+/* Common  */
+.clear {
+    clear: both;    /* The element is pushed below both left and right floated elements */
+}
+
+.text-while {
+    color: #fff !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.img {
+    width: 100%;
+}
+
+.btn{
+    margin-top: 15px;
+    padding: 10px 16px;
+    display: block;
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+.mt-8 {
+    margin-top: 8px !important;
+}
+
+.mt-16 {
+    margin-top: 16px !important;
+}
+
+.padding-64 {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important;
+}
+
+.padding-32 {
+    padding-top: 32px!important;
+    padding-bottom: 32px!important;
+}
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-full {
+    width: 100%;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.col-third {
+    width: 33.3333333%;
+}
